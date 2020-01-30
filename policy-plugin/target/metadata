@@ -1,0 +1,14 @@
+{
+  "type": "plugin",
+  "name": "mydemo_plugin",
+  "version": "6.0-1.0",
+  "depends": {
+    "dpkg": [ "apache2" ],
+    "rpm": [ "rudder-api-client],
+  },
+
+  "content": {
+    "files.txz": "/opt/rudder/share/plugins/",
+    "ncf.txz": "/var/rudder/configuration-repository"
+  }
+}
